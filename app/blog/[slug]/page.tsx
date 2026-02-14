@@ -13,15 +13,16 @@ import {
 } from "@/lib/blog-data"
 
 interface BlogPostPageProps {
-  params: {
+  params: promise<{
     slug: string
-  }
+  }>
 }
 
 // ------- Metadata -------
 
-export function generateMetadata({ params }: BlogPostPageProps): Metadata {
-  const post = getBlogPost(params.slug)
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const post = getBlogPost(slug)
 
   if (!post) {
     return {
@@ -150,8 +151,9 @@ function renderBlock(block: BlogContent, index: number) {
 
 // ------- Page -------
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = getBlogPost(params.slug)
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params
+  const post = getBlogPost(slug)
 
   if (!post) {
     notFound()
