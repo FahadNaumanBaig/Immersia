@@ -87,7 +87,7 @@ const teamMembers = [
   role: "Digital Growth & SEO Lead",
   image: "/images/team/Harshit.jpg",
   linkedin: "https://www.linkedin.com/in/harshit-sharma-26b55b222/",
-  bio: "Harshit leads digital growth initiatives at Immersia, driving SEO strategy, backlink development, and performance marketing. He optimizes our content ecosystem, blog architecture, and discovery channels to ensure our region-inspired fragrances reach the right global audiences.",
+  bio: "Harshit leads digital growth initiatives at Immersia, driving SEO strategy, backlink development, and performance marketing.",
 },
 
 ]
