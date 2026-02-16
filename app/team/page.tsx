@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const teamMembers = [
   {
     name: "Jankar Onkar Rajesh",
-    prn: "25020341005",
+    prn: "25020341105",
     role: "Fragrance Innovation Lead",
     image: "/images/team/Onkar.jpg",
     linkedin: "https://www.linkedin.com/in/onkar-jankar/",
@@ -67,7 +67,7 @@ const teamMembers = [
   },
   {
     name: "Sanya Sharma",
-    prn: "25020341214",
+    prn: "25020341215",
     role: "Regional Fragrance Specialist",
     image: "/images/team/SanyaS.jpg",
     linkedin: "https://www.linkedin.com/in/sanyasharma1234/",
