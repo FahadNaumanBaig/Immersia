@@ -18,14 +18,6 @@ export const metadata: Metadata = {
 
 const teamMembers = [
   {
-    name: "Jankar Onkar Rajesh",
-    prn: "25020341105",
-    role: "Fragrance Innovation Lead",
-    image: "/images/team/Onkar.jpg",
-    linkedin: "https://www.linkedin.com/in/onkar-jankar/",
-    bio: "Jankar brings fresh perspectives to fragrance development, combining technical expertise with creative sensibility to push the boundaries of olfactory innovation.",
-  },
-  {
     name: "Mirza Fahad Nauman Baig",
     prn: "25020341114",
     role: "Head of Strategic Sourcing",
